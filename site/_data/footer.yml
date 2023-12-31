@@ -2,8 +2,8 @@ footer_menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
-    - title: 'Projects'
-      url: '/projects/'
+    - title: 'Što radimo'
+      url: '/sto-radimo/'
     - title: 'Elements'
       url: '/elements/'
     - title: 'About'
@@ -13,3 +13,8 @@ footer_menu__settings:
 
 copyright_text_html: >-
   <p> 2021 &copy; <a href="/">Vonge</a>. Template by <a href="https://cloudcannon.com/">CloudCannon</a>.</p>
+
+#title = "Što sve radimo!"
+#description_html = "Pružamo sveobuhvatna računalna rješenja za različite industrije i potrebe!"
+#link_url = "/sto-radimo"
+#show_projects = true

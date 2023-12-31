@@ -4,8 +4,8 @@ menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
-    - title: 'Projects'
-      url: '/projects/'
+    - title: 'Što radimo'
+      url: '/sto-radimo/'
     - title: 'Blog'
       url: '/blog/'
     - title: 'Pages'
