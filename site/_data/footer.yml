@@ -1,13 +1,9 @@
 footer_menu__settings:
   menu__items:
-    - title: 'Home'
+    - title: 'Pocetna'
       url: '/'
-    - title: 'Što radimo'
-      url: '/sto-radimo/'
-    - title: 'Elements'
-      url: '/elements/'
-    - title: 'About'
-      url: '/about/'
+    - title: 'Kontakt'
+      url: '/kontakt/'
     - title: 'Blog'
       url: '/blog/'
 

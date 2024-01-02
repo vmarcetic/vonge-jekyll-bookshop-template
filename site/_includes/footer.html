@@ -12,7 +12,10 @@
           {% endfor %}
         </ul>
 
-        <div class="copyright">{{ site.data.footer.copyright_text_html }}</div>
+<!--        <div class="copyright">{{ site.data.footer.copyright_text_html }}</div>-->
+        <div class="copyright">
+          <p> {{ site.time | date: "%Y" }} &copy; <a href="/">Code Alpha d.o.o.</a> </p>
+        </div>
 
       </div>
     </div>
