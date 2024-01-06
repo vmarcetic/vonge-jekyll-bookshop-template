@@ -33,16 +33,10 @@ jobs:
         with:
           ruby-version: '3.0'
 
-      - name: Change to site directory
-        run: |
-          cd site
-          ls -la
-
       - name: Build and test
         run: |
           gem install bundler
           cd site
-          ls -la
           bundle install
           bundle exec jekyll build
           mv _site ../_site
