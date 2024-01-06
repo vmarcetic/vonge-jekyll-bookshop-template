@@ -45,7 +45,7 @@ jobs:
       - name: Copy CNAME
         run: | 
           cp CNAME site/_site/CNAME
-          ls -ls _site
+          ls -ls site
           cd ..         
           ls -ls
           cd .. 
