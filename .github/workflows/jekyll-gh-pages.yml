@@ -21,7 +21,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Deployment job
+  # Deployment job BUNDLE_GEMFILE=./site/Gemfile
   deploy:
     runs-on: ubuntu-latest
     steps:
@@ -41,6 +41,8 @@ jobs:
       - name: Build and test
         run: |
           gem install bundler
+          cd site
+          ls -la
           bundle install
           bundle exec jekyll build
 
