@@ -15,7 +15,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '14'  # Set to your Node.js version
+          node-version: '16'  # Set to your Node.js version
 
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
