@@ -39,6 +39,8 @@ jobs:
           cd site
           bundle install
           bundle exec jekyll build
+          ls -ls
+          ls -ls _site
 
       - name: Copy CNAME
         run: cp CNAME site/_site/CNAME
