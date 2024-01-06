@@ -33,10 +33,13 @@ jobs:
         with:
           ruby-version: '3.0'
 
+      - name: Change to site directory
+        run: cd site
+
       - name: Build and test
         run: |
           gem install bundler
-          BUNDLE_GEMFILE=./site/Gemfile bundle install
+          bundle install
           bundle exec jekyll build
 
       - name: Deploy to GitHub Pages
