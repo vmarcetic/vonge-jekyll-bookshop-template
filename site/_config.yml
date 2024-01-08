@@ -1,5 +1,5 @@
-title: Vonge
-
+title: "Code Alpha"
+url: "https://codealpha.hr"
 plugins:
   - jekyll-bookshop
   - cloudcannon-jekyll-bookshop
