@@ -4,7 +4,7 @@ title: Jednostavni Trikovi za Brže i Učinkovitije Korištenje Windowsa 11
 description: >-
     Windows 11 je pun inovativnih značajki koje mogu poboljšati vašu produktivnost i iskustvo korištenja. U ovom članku, istražujemo nekoliko jednostavnih trikova koji će učiniti vaše korištenje Windowsa 11 bržim i učinkovitijim.
 tags: [windows, productivity]
-image: /images/post-2.png
+image: /images/post-2.avif
 ---
 Windows 11 je pun inovativnih značajki koje mogu poboljšati vašu produktivnost i iskustvo korištenja. U ovom članku, istražujemo nekoliko jednostavnih trikova koji će učiniti vaše korištenje Windowsa 11 bržim i učinkovitijim.
 

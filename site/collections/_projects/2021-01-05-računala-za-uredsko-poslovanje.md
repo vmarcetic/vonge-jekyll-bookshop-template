@@ -2,7 +2,7 @@
 date: 2021-01-05 05:20:35 +0300
 title: Računala za uredsko poslovanje
 subtitle: 
-image: '/images/project-9.jpg'
+image: '/images/project-9.avif'
 ---
 U današnjem brzom poslovnom okruženju, računalni sustavi igraju ključnu ulogu u učinkovitom i efikasnom obavljanju svakodnevnih poslovnih zadataka. Ovaj članak istražuje različite vrste računalnih sustava i softvera koji su neophodni u modernom uredskom okruženju.
 

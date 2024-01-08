@@ -3,7 +3,7 @@ date:   2018-11-08 15:01:35 +0300
 title:  Poboljšajte Produktivnost s Ovih 5 Skrivenih Značajki Windowsa 11
 description: Windows 11 skriva brojne značajke koje mogu znatno poboljšati vašu produktivnost. Evo koraka kako koristiti svaku od ovih značajki.
 tags:   [windows, productivity]
-image:  '/images/post-4.png'
+image:  '/images/post-4.avif'
 ---
 Windows 11 skriva brojne značajke koje mogu znatno poboljšati vašu produktivnost. Evo koraka kako koristiti svaku od ovih značajki.
 

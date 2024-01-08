@@ -2,7 +2,7 @@
 date: 2021-01-11 07:40:35 +0300
 title: Računala za obradu DTP
 subtitle: 
-image: '/images/project-4.jpg'
+image: '/images/project-4.avif'
 ---
 
 Desktop Publishing (DTP) zahtijeva specijalizirane računalne sustave optimizirane za grafički dizajn i layout softver. DTP se koristi za stvaranje layouta za tiskane materijale kao što su brošure, časopisi, knjige, letci i slično. Pravi hardver ključan je za efikasnost i kvalitetu ovog procesa.

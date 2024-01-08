@@ -2,7 +2,7 @@
 date: 2021-01-06 05:20:35 +0300
 title: Računala za financijske servise
 subtitle: 
-image: '/images/project-8.jpg'
+image: '/images/project-8.avif'
 ---
 Računalni sustavi i softver su neizostavni dijelovi financijskog sektora, omogućavajući institucijama da učinkovito i sigurno obavljaju širok spektar financijskih operacija i usluga. Ovaj članak istražuje ključne komponente ovih sustava i njihovu ulogu u financijskom sektoru.
 
