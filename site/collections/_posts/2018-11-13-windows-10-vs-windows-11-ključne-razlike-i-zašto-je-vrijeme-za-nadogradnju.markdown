@@ -2,11 +2,8 @@
 date: 2018-11-13 12:01:35
 title: "Windows 10 vs Windows 11: Ključne razlike i zašto je vrijeme za nadogradnju"
 description: >-
-  Bring to the table win-win survival strategies to ensure proactive domination.
-  At the end of the day, going forward.
-tags:
-  - travel
-  - lifestyle
+    Windows 11 donosi brojne poboljšanja u odnosu na prethodnu verziju. U ovom članku, istražujemo ključne razlike između Windowsa 10 i Windowsa 11 i razloge za nadogradnju.
+tags: [windows, upgrade]
 image: /images/post-1.png
 ---
 

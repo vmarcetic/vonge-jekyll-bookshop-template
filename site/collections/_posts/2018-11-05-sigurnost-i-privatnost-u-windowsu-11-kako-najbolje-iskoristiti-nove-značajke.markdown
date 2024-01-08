@@ -1,8 +1,8 @@
 ---
 date:   2018-11-05 15:01:35 +0300
 title:  "Sigurnost i Privatnost u Windowsu 11: Kako Najbolje Iskoristiti Nove Značajke"
-description: Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward.
-tags:   [travel, lifestyle]
+description: Windows 11, sigurnost, privatnost, zaštita, značajke
+tags:   [windows, security, privacy]
 image:  '/images/post-6.png'
 ---
 Sigurnost i privatnost su ključni aspekti modernih operativnih sustava. Windows 11 donosi niz novih značajki dizajniranih da poboljšaju sigurnost i zaštite vašu privatnost. U ovom članku, istražujemo kako možete iskoristiti ove značajke na najbolji mogući način.

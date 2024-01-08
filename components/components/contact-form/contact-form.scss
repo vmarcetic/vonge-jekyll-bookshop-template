@@ -1,14 +1,9 @@
-/* Contact Form */
-.c-contact-form { $c: &;
-
-	.container {
-		position: relative;
-	}
-
+/* Contact Form Styling Adapted for Zammad Form */
+.c-contact-form {
 	&__form-box {
 		max-width: 580px;
 		margin: 0 auto;
-		padding-top: 140px;
+		padding-top: 80px;
 	}
 
 	&__contact-head {
@@ -31,41 +26,85 @@
 		}
 	}
 
-	&__form {
-		position: relative;
-		margin-bottom: 60px;
-	}
+	.zammad-form {
+		&__form-group {
+			label {
+				margin-bottom: 48px;
+				text-align: center;
+				display: block;
+				font-size: 20px;
+				font-weight: 600;
+			}
+		}
 
-	&__form-group {
-		margin-bottom: 20px;
-		font-size: 0;
-
-		&--button {
+		&__form-group--button {
+			margin-top: 48px;
 			text-align: center;
 		}
-	}
 
-	&__form-input {
-		width: 100%;
-		padding: 22px;
-		font-size: 16px;
-		font-weight: 500;
-		border: 1px solid $border-color;
-		border-radius: 8px;
-		outline: none;
-		transition: $global-transition;
-		resize: vertical;
-		color: $text-color;
-		background: $background-color-alt;
+		.form-group {
+			margin-bottom: 20px;
+			font-size: 16px; // Adjust as needed
 
-		&::placeholder {
-			font-weight: 500;
-			color: rgba($text-color, 0.3);
+			label {
+				font-size: 16px; // Adjust as needed
+				font-weight: 600;
+			}
 		}
 
-		&:focus {
-			border-color: $primary-color;
-			box-shadow: 0px 4px 10px rgba($primary-color, 0.25);
+		.form-control {
+			width: 100%;
+			padding: 22px;
+			font-size: 16px;
+			font-weight: 500;
+			border: 1px solid #ddd; // Adjust to match $border-color
+			border-radius: 8px;
+			outline: none;
+			transition: all 0.3s ease; // Adjust to match $global-transition
+			resize: vertical;
+			color: #333; // Adjust to match $text-color
+			background: #f9f9f9; // Adjust to match $background-color-alt
+
+			&::placeholder {
+				font-weight: 500;
+				color: rgba(51, 51, 51, 0.3); // Adjust to match rgba($text-color, 0.3)
+			}
+
+			&:focus {
+				border-color: $primary-color; // Adjust to match $primary-color
+				box-shadow: 0px 4px 10px rgba($primary-color, 0.25); // Adjust to match rgba($primary-color, 0.25)
+			}
+		}
+
+		.submit-button-wrapper{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+		}
+
+		button[type="submit"] {
+			background: linear-gradient(90deg, #EB6F23 0%, #EC945A 167%);
+			color: white;
+			padding: 24px 44px;
+			font-size: 18px;
+			border-radius: 16px;
+			position: relative;
+			z-index: 1;
+			display: inline-flex;
+			justify-content: center;
+			align-items: center;
+			line-height: 1;
+			font-weight: 700;
+			white-space: nowrap;
+			border: none;
+			outline: none;
+			cursor: pointer;
+			overflow: hidden;
+			transition: all 0.25s ease;
+			box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.05);
+			will-change: transform;
+
 		}
 	}
 }

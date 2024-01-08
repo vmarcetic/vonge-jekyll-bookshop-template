@@ -2,11 +2,8 @@
 date: 2018-11-11 12:01:35
 title: "Kako Personalizirati Korisničko Sučelje u Windowsu 11: Top Trikovi"
 description: >-
-  Bring to the table win-win survival strategies to ensure proactive domination.
-  At the end of the day, going forward.
-tags:
-  - life
-  - notes
+  Windows 11, personalizacija, teme, pozadine, taskbar, widgeti
+tags: [windows, productivity]
 image: /images/post-3.png
 ---
 Windows 11 nudi brojne opcije za personalizaciju, omogućujući korisnicima da prilagode svoje korisničko sučelje kako bi odgovaralo njihovim preferencijama. Ovdje ćemo proći kroz detaljne korake za prilagodbu teme i pozadine, taskbara, te korištenje widgeta.

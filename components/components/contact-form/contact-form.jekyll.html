@@ -3,45 +3,68 @@
 <div class="{{c}}" id="contact">
   <div class="container">
     <div class="row">
-<!--      #TODO Contact form-->
-<!--      <div class="col col-12">-->
-
-<!--        <div class="{{c}}__form-box">-->
-<!--          <div class="{{c}}__contact-head">-->
-<!--            <h2 class="{{c}}__contact-title">{{ include.form_title }}</h2>-->
-<!--            <p class="{{c}}__contact-description">{{ include.form_description }}</p>-->
-<!--          </div>-->
-<!--          <form class="{{c}}__form"-->
-<!--            action="{{include.form_success_page}}"-->
-<!--            method="POST">-->
-<!--            <input type="hidden" name="_to" value="{{include.form_submission_email}}">-->
-<!--            <div class="{{c}}__form-group">-->
-<!--              <label class="{{c}}__form-label screen-reader-text" for="form-name">Your Name</label>-->
-<!--              <input class="{{c}}__form-input" id="form-name" type="text" name="name" placeholder="Your name..." required>-->
-<!--            </div>-->
-<!--            <div class="{{c}}__form-group">-->
-<!--              <label class="{{c}}__form-label screen-reader-text" for="form-email">Your Email</label>-->
-<!--              <input class="{{c}}__form-input" id="form-email" type="email" name="_replyto" placeholder="Your email..."-->
-<!--                required>-->
-<!--            </div>-->
-<!--            <div class="{{c}}__form-group">-->
-<!--              <label class="{{c}}__form-label screen-reader-text" for="form-text">Your Message</label>-->
-<!--              <textarea class="{{c}}__form-input" id="form-text" name="text" rows="9" placeholder="Your message..."-->
-<!--                required></textarea>-->
-<!--            </div>-->
-<!--            <div class="{{c}}__form-group {{c}}__form-group&#45;&#45;button">-->
-<!--              <button class="c-button c-button&#45;&#45;primary c-button&#45;&#45;large" type="submit">{{ include.form_button_text }}</button>-->
-<!--            </div>-->
-<!--          </form>-->
-<!--        </div>-->
-<!--      <div>-->
-<!--        <div class="{{c}}__contact-head">-->
-<!--          <h2 class="{{c}}__contact-title">Nazovite nas:</h2>-->
-<!--          098 20 25 20-->
-<!--        </div>-->
-<!--      </div>-->
-<!--      </div>-->
+      <div class="col col-12">
+        <div class="{{c}}__form-box">
+          <div class="{{c}}__contact-head">
+            <h2 class="{{c}}__contact-title">{{ include.form_title }}</h2>
+            <p class="{{c}}__contact-description">{{ include.form_description }}</p>
+          </div>
+          <div id="zammad-feedback-form">
+            <form class="{{c}}__form zammad-form"
+              action="{{include.form_success_page}}"
+              method="POST">
+              <input type="hidden" name="_to" value="{{include.form_submission_email}}">
+              <div class="{{c}}__form-group">
+                <label class="{{c}}__form-label screen-reader-text" for="zammad-form-name-inline">Your Name</label>
+                <input class="{{c}}__form-input zammad-form-control" id="zammad-form-name-inline" type="text" name="name" placeholder="Your name..." required>
+              </div>
+              <div class="{{c}}__form-group">
+                <label class="{{c}}__form-label screen-reader-text" for="zammad-form-email-inline">Your Email</label>
+                <input class="{{c}}__form-input zammad-form-control" id="zammad-form-email-inline" type="email" name="_replyto" placeholder="Your email..."
+                  required>
+              </div>
+              <div class="{{c}}__form-group">
+                <label class="{{c}}__form-label screen-reader-text" for="zammad-form-body-inline">Your Message</label>
+                <textarea class="{{c}}__form-input zammad-form-control" id="zammad-form-body-inline" name="text" rows="9" placeholder="Your message..."
+                  required></textarea>
+              </div>
+              <div class="{{c}}__form-group {{c}}__form-group--button">
+                <button class="c-button c-button--primary c-button--large" type="submit">{{ include.form_button_text }}</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
-<!-- end contact -->
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script id="zammad_form_script" src="https://zammad.codealpha.hr/assets/form/form.js"></script>
+
+<script>
+  $(function() {
+    $('#zammad-feedback-form').ZammadForm({
+      messageTitle: 'Obrazac za povratne informacije',
+      messageSubmit: 'Pošalji',
+      messageThankYou: 'Hvala vam na upitu (#%s). Javit ćemo Vam se u najkraćem mogućem roku.',
+      noCSS: true,
+      attachmentSupport: true,
+    });
+
+    // document.addEventListener("DOMContentLoaded", function() {
+      // Find the submit button in the form
+      var submitButton = document.querySelector('.zammad-form .btn');
+
+      if (submitButton) {
+        // Create a wrapper div
+        var wrapper = document.createElement('div');
+        wrapper.className = 'submit-button-wrapper';
+
+        // Insert the wrapper into the DOM and move the submit button into this wrapper
+        submitButton.parentNode.insertBefore(wrapper, submitButton);
+        wrapper.appendChild(submitButton);
+      }
+    // });
+  });
+</script>

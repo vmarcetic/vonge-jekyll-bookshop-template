@@ -1,3 +1,9 @@
 napiši članak o "" proširi vec napisani clanak "" i generiraj sliku ili fotografiju i neka bude u markdown za jekyll
 
 napiši članak o "" proširi vec napisani clanak "" i generiraj sliku ili fotografiju i neka bude u markdown za jekyll
+
+Deploymnet sustava ja takav da se pokrene
+BUNDLE_GEMFILE=site/Gemfile bundle exec jekyll build --source site --trace
+i onda se _site direktorij kopira u neki drugi FOLDER
+izbrišu se svi ostali fielovi koji postoje na gh-pages branchu i onda se u root kopria sadržaj iz _site direktorija
+I DODA CNAME FILE

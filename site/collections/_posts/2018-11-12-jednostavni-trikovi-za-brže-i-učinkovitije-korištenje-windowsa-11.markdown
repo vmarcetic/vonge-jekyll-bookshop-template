@@ -2,11 +2,8 @@
 date: 2018-11-12 12:01:35
 title: Jednostavni Trikovi za Brže i Učinkovitije Korištenje Windowsa 11
 description: >-
-  Bring to the table win-win survival strategies to ensure proactive domination.
-  At the end of the day, going forward.
-tags:
-  - life
-  - story
+    Windows 11 je pun inovativnih značajki koje mogu poboljšati vašu produktivnost i iskustvo korištenja. U ovom članku, istražujemo nekoliko jednostavnih trikova koji će učiniti vaše korištenje Windowsa 11 bržim i učinkovitijim.
+tags: [windows, productivity]
 image: /images/post-2.png
 ---
 Windows 11 je pun inovativnih značajki koje mogu poboljšati vašu produktivnost i iskustvo korištenja. U ovom članku, istražujemo nekoliko jednostavnih trikova koji će učiniti vaše korištenje Windowsa 11 bržim i učinkovitijim.

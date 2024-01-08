@@ -1,8 +1,8 @@
 ---
 date:   2018-11-06 15:01:35 +0300
 title:  "Kako Optimizirati Performanse Windowsa 11: Praktični Savjeti i Trikovi"
-description: Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward.
-tags:   [lifestyle, rest]
+description: Windows 11, performanse, optimizacija, brzina, efikasnost
+tags:   [windows, performance, optimization]
 image:  '/images/post-5.png'
 ---
 Optimizacija performansi Windowsa 11 može značajno poboljšati iskustvo korištenja vašeg računala. U ovom članku, otkrit ćemo praktične savjete i trikove za poboljšanje brzine i efikasnosti vašeg sistema.
