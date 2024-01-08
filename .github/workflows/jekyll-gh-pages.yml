@@ -32,10 +32,14 @@ jobs:
         run: npm run bookshop-hosted
 
       - name: Build Jekyll site
-        run: BUNDLE_GEMFILE=site/Gemfile bundle exec jekyll build --source site --trace
+        run: | 
+          BUNDLE_GEMFILE=site/Gemfile bundle exec jekyll build --source site --trace
+
+      - name: Copy CNAME file
+        run: cp CNAME _site/CNAME
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./site/_site
+          publish_dir: ./_site
