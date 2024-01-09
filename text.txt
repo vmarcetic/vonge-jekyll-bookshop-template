@@ -7,3 +7,42 @@ BUNDLE_GEMFILE=site/Gemfile bundle exec jekyll build --source site --trace
 i onda se _site direktorij kopira u neki drugi FOLDER
 izbrišu se svi ostali fielovi koji postoje na gh-pages branchu i onda se u root kopria sadržaj iz _site direktorija
 I DODA CNAME FILE
+
+
+napiši stručni članak o "prednostima synologya" i generiraj sliku ili fotografiju i neka bude u markdown za jekyll
+
+---
+layout: post
+title: "Prednosti Synologya"
+date: 2024-01-09
+categories: tehnologija poslovna-rješenja
+---
+
+![Synology NAS u poslovnom okruženju](/putanja/do/slike.jpg)
+
+## Uvod
+Synology, poznat po svojim rješenjima za mrežno povezano skladištenje (NAS), postao je ključno ime u modernom upravljanju podacima i mreži. U svijetu gdje su podaci kralj, Synology nudi niz značajki koje ga čine privlačnim izborom za poslovne korisnike i tehnološke entuzijaste.
+
+## Neusporedivo upravljanje podacima
+Synology NAS sustavi pružaju neusporedivu sposobnost upravljanja podacima. Korisnici lako mogu pohranjivati, pristupati i upravljati svojim podacima na daljinu, što ga čini idealnim rješenjem za poslovanja s fleksibilnim radnim okruženjima.
+
+### Centralizirano skladištenje
+Centralizacija skladištenja podataka jedna je od osnovnih snaga Synologya. Omogućava korisnicima pohranu podataka na jednom mjestu, dostupno više korisnika s različitih uređaja, osiguravajući učinkovito upravljanje podacima i suradnju.
+
+### Sigurnosna kopija i redundancija
+S ugrađenim opcijama redundancije poput RAID konfiguracija, Synology osigurava sigurnost podataka. To je ključno za poslovanja gdje gubitak podataka može imati značajne posljedice.
+
+## Poboljšana sigurnost
+Synology nudi snažne sigurnosne značajke za zaštitu osjetljivih podataka. Napredno šifriranje, dvofaktorska autentikacija i redovita ažuriranja čine ga sigurnim izborom za pohranu ključnih informacija.
+
+## Korisničko sučelje prijateljsko za korisnike
+Jedna od istaknutih značajki Synologya je njegovo intuitivno korisničko sučelje, DiskStation Manager (DSM). Jednostavnost DSM-a ne kompromitira funkcionalnost, čineći ga pristupačnim za korisnike svih tehničkih razina.
+
+## Svestranost
+Synology NAS nije samo o skladištenju. Može funkcionirati kao privatni oblak, medijski poslužitelj, centar za nadzor i još mnogo toga, čineći ga svestranim dodatkom bilo kojem tehnološkom postavu.
+
+## Skalabilnost
+Kako vaše potrebe za podacima rastu, tako može rasti i vaš Synology sustav. S mogućnostima skalabilnog skladištenja, to je dugoročno rješenje koje se razvija s vašim poslovanjem.
+
+## Zaključak
+Synology nudi kombinaciju performansi, sigurnosti i svestranosti, čineći ga izvrsnim izborom za svakoga tko želi unaprijediti svoj sustav upravljanja podacima. Bilo da se radi o osobnoj uporabi ili za poslovanje, Synologyjeva NAS rješenja ističu se kao vrhunski izbor na tržištu.
