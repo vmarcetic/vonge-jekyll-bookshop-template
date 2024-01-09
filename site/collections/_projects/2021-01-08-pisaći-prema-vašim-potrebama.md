@@ -3,6 +3,7 @@ date: 2021-01-08 06:20:35 +0300
 title: Pisaći prema Vašim potrebama
 subtitle: 
 image: '/images/project-7.avif'
+home-image: '/images/project-7-home.avif'
 ---
 Uredski pisači su neizostavan dio svakog modernog poslovnog okruženja. Oni omogućuju brzo i učinkovito tiskanje dokumenata, ključno za mnoge poslovne operacije. Razumijevanje različitih vrsta pisača i njihovih specifikacija može vam pomoći da odaberete pravi pisač za vaše poslovne potrebe.
 

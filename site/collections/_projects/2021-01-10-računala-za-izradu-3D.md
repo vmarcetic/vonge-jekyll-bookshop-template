@@ -3,6 +3,7 @@ date: 2021-01-10 07:30:35 +0300
 title: Računala za izradu 3D
 subtitle: 
 image: '/images/project-5.avif'
+home-image: '/images/project-5-home.avif'
 ---
 
 Računalni sustavi optimizirani za 3D modeliranje, animaciju, renderiranje i virtualnu stvarnost (VR) igraju ključnu ulogu u različitim industrijama. Od filmske industrije do video igara, arhitekture i medicinskih primjena, ovi sustavi omogućuju stvaranje složenih 3D modela i interaktivnih VR iskustava.

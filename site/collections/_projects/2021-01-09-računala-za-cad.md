@@ -3,6 +3,7 @@ date: 2021-01-09 07:20:35 +0300
 title: Računala za CAD
 subtitle: 
 image: '/images/project-6.avif'
+home-image: '/images/project-6-home.avif'
 ---
 U svijetu računalno potpomognutog dizajna (CAD), odabir pravog računalnog sustava može značajno utjecati na efikasnost i kvalitetu rada. Računala optimizirana za CAD softver su ključna u različitim industrijama, od arhitekture do inženjeringa, za stvaranje preciznih 2D crteža i 3D modela.
 
