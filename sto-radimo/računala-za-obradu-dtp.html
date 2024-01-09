@@ -25,12 +25,16 @@
   <meta property="og:image" content="https://codealpha.hr/images/project-4.avif">
 
   <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet"></noscript>
 
   <!-- Ionicons -->
-  <link href="https://unpkg.com/ionicons@4.5.0/dist/css/ionicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/ionicons@4.5.0/dist/css/ionicons.min.css" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://unpkg.com/ionicons@4.5.0/dist/css/ionicons.min.css"></noscript>
 
-  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="stylesheet" href="/assets/main.css" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/assets/main.css"></noscript>
+
 </head>
 
 <body>
@@ -302,11 +306,11 @@
 })();
 </script>
 
-    <script src="/js/scripts.js"></script>
-    <script src="/js/common.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://zammad.codealpha.hr/assets/chat/chat.min.js"></script>
-    <script id="zammad_form_script" src="https://zammad.codealpha.hr/assets/form/form.js"></script>
+    <script src="/js/scripts.js" defer></script>
+    <script src="/js/common.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+    <script src="https://zammad.codealpha.hr/assets/chat/chat.min.js" defer></script>
+    <script id="zammad_form_script" src="https://zammad.codealpha.hr/assets/form/form.js" defer></script>
     <script>
         $(function() {
             new ZammadChat({
