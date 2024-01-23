@@ -2,10 +2,10 @@ footer_menu__settings:
   menu__items:
     - title: 'Pocetna'
       url: '/'
-    - title: 'Kontakt'
-      url: '/kontakt/'
     - title: 'Blog'
       url: '/blog/'
+    - title: 'Kontakt'
+      url: '/kontakt/'
 
 copyright_text_html: >-
   <p> 2023 &copy; <a href="/">Code Alpha d.o.o.</a>. </p>

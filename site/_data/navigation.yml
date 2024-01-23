@@ -4,10 +4,10 @@ menu__settings:
   menu__items:
     - title: 'Pocetna'
       url: '/'
-    - title: 'Kontakt'
-      url: '/kontakt/'
     - title: 'Blog'
       url: '/blog/'
+    - title: 'Kontakt'
+      url: '/kontakt/'
 #    - title: 'Pages'
 #      submenu:
 #      - url: '/about/'
