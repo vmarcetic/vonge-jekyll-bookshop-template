@@ -135,7 +135,7 @@
 
 <!--            <div class="post__meta-bottom">-->
 <!--              <div class="post__author">Vanessa Marley</div>-->
-<!--              <time class="post__date" datetime="2018-11-08T12:01:35+00:00">08 Nov 2018</time>-->
+
 <!--            </div>-->
 <!--          </div>-->
 
@@ -576,6 +576,122 @@
     <script src="/js/scripts.js" defer></script>
     <script src="/js/common.js" defer></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://zammad.codealpha.hr/assets/chat/chat.min.js"></script>
+    <script id="zammad_form_script" src="https://zammad.codealpha.hr/assets/form/form.js"></script>
+    <script>
+        $(function() {
+            new ZammadChat({
+                title: '<strong>Pričajte</strong> s nama!',
+                background: '#EB6F23',
+                fontSize: '12px',
+                chatId: 1
+            });
+
+            $('#zammad-feedback-form').ZammadForm({
+                messageTitle: 'Obrazac za povratne informacije',
+                messageSubmit: 'Pošalji',
+                messageThankYou: 'Hvala vam na upitu (#%s). Javit ćemo Vam se u najkraćem mogućem roku.',
+                noCSS: true,
+                attachmentSupport: true,
+            });
+
+            // document.addEventListener("DOMContentLoaded", function() {
+            // Find the submit button in the form
+            var submitButton = document.querySelector('.zammad-form .btn');
+
+            if (submitButton) {
+                // Create a wrapper div
+                var wrapper = document.createElement('div');
+                wrapper.className = 'submit-button-wrapper';
+
+                // Insert the wrapper into the DOM and move the submit button into this wrapper
+                submitButton.parentNode.insertBefore(wrapper, submitButton);
+                wrapper.appendChild(submitButton);
+            }
+        });
+    </script>
+    <style>
+  #cookie-notice {padding: 0.5rem 1rem; display: none; text-align: center; position: fixed; bottom: 0; width: calc(100% - 2rem); background: #222; color: rgba(255,255,255,0.8);}
+  #cookie-notice a {display: inline-block; cursor: pointer; margin-left: 0.5rem;}
+  @media (max-width: 767px) {
+    #cookie-notice span {display: block; padding-top: 3px; margin-bottom: 1rem;}
+    #cookie-notice a {position: relative; bottom: 4px;}
+  }
+</style>
+<div id="cookie-notice"><span>We would like to use third party cookies and scripts to improve the functionality of this website.</span><a id="cookie-notice-accept" class="btn btn-primary btn-sm">Approve</a><a href="/privacy" class="btn btn-primary btn-sm">More info</a></div>
+<script>
+  function createCookie(name,value,days) {
+    var expires = "";
+    if (days) {
+      var date = new Date();
+      date.setTime(date.getTime() + (days*24*60*60*1000));
+      expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + value + expires + "; path=/";
+  }
+  function readCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length;i++) {
+      var c = ca[i];
+      while (c.charAt(0)==' ') c = c.substring(1,c.length);
+      if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+  }
+  function eraseCookie(name) {
+    createCookie(name,"",-1);
+  }
+
+  function loadScript(src, id) {
+    var script = document.createElement('script');
+    script.src = src;
+    if (id) script.id = id;
+    document.body.appendChild(script);
+  }
+
+  if(readCookie('cookie-notice-dismissed')=='true') {
+  } else {
+    document.getElementById('cookie-notice').style.display = 'block';
+  }
+  document.getElementById('cookie-notice-accept').addEventListener("click",function() {
+    createCookie('cookie-notice-dismissed','true',31);
+    document.getElementById('cookie-notice').style.display = 'none';
+    location.reload();
+  });
+
+  $(function() {
+    new ZammadChat({
+      title: '<strong>Pričajte</strong> s nama!',
+      background: '#EB6F23',
+      fontSize: '12px',
+      chatId: 1
+    });
+
+    $('#zammad-feedback-form').ZammadForm({
+      messageTitle: 'Obrazac za povratne informacije',
+      messageSubmit: 'Pošalji',
+      messageThankYou: 'Hvala vam na upitu (#%s). Javit ćemo Vam se u najkraćem mogućem roku.',
+      noCSS: true,
+      attachmentSupport: true,
+    });
+
+    // document.addEventListener("DOMContentLoaded", function() {
+    // Find the submit button in the form
+    var submitButton = document.querySelector('.zammad-form .btn');
+
+    if (submitButton) {
+      // Create a wrapper div
+      var wrapper = document.createElement('div');
+      wrapper.className = 'submit-button-wrapper';
+
+      // Insert the wrapper into the DOM and move the submit button into this wrapper
+      submitButton.parentNode.insertBefore(wrapper, submitButton);
+      wrapper.appendChild(submitButton);
+    }
+  });
+
+</script>
 
 </body>
 </html>
