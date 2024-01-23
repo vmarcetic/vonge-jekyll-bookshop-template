@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hr">
 
 <head>
   <meta charset="utf-8">
@@ -74,13 +74,13 @@
               
                 
                 <li class="nav__item">
-                  <a href="/kontakt/" class="nav__link">Kontakt</a>
+                  <a href="/blog/" class="nav__link">Blog</a>
                 </li>
                 
               
                 
                 <li class="nav__item">
-                  <a href="/blog/" class="nav__link">Blog</a>
+                  <a href="/kontakt/" class="nav__link">Kontakt</a>
                 </li>
                 
               
@@ -496,11 +496,11 @@
           </li>
           
           <li class="footer_nav__item">
-            <a href="/kontakt/" class="footer_nav__link">Kontakt</a>
+            <a href="/blog/" class="footer_nav__link">Blog</a>
           </li>
           
           <li class="footer_nav__item">
-            <a href="/blog/" class="footer_nav__link">Blog</a>
+            <a href="/kontakt/" class="footer_nav__link">Kontakt</a>
           </li>
           
         </ul>
@@ -549,39 +549,6 @@
     <script src="/js/scripts.js" defer></script>
     <script src="/js/common.js" defer></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://zammad.codealpha.hr/assets/chat/chat.min.js"></script>
-    <script id="zammad_form_script" src="https://zammad.codealpha.hr/assets/form/form.js"></script>
-    <script>
-        $(function() {
-            new ZammadChat({
-                title: '<strong>Pričajte</strong> s nama!',
-                background: '#EB6F23',
-                fontSize: '12px',
-                chatId: 1
-            });
 
-            $('#zammad-feedback-form').ZammadForm({
-                messageTitle: 'Obrazac za povratne informacije',
-                messageSubmit: 'Pošalji',
-                messageThankYou: 'Hvala vam na upitu (#%s). Javit ćemo Vam se u najkraćem mogućem roku.',
-                noCSS: true,
-                attachmentSupport: true,
-            });
-
-            // document.addEventListener("DOMContentLoaded", function() {
-            // Find the submit button in the form
-            var submitButton = document.querySelector('.zammad-form .btn');
-
-            if (submitButton) {
-                // Create a wrapper div
-                var wrapper = document.createElement('div');
-                wrapper.className = 'submit-button-wrapper';
-
-                // Insert the wrapper into the DOM and move the submit button into this wrapper
-                submitButton.parentNode.insertBefore(wrapper, submitButton);
-                wrapper.appendChild(submitButton);
-            }
-        });
-    </script>
 </body>
 </html>
